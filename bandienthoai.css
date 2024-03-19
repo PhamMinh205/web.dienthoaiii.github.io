@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(250, 231, 58);
+    padding: 10px;
+}
+.macque{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(248, 248, 73);
+    height: 50px;
+    width: 1000px;
+}
+.menu11 ul{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.menu11 li{
+    color: black;
+    margin: auto;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.menu11 img{
+    width: 85px;
+    height: auto;
+}
+.menu11 form input{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(30,29, 29);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.menu11 form input{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(247, 242, 242);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.menu11 .motmot{
+    position: absolute;
+    display: none;
+    left: 152px;
+    
+}
+.menu11{
+    margin-bottom: 20px;
+}
+.menu11 .mot{
+    margin: 20px;
+}
+.menu11 li:hover .motmot{
+    background-color: white;
+    padding: 3px;
+    display: block;
+    border: 1px solid white;
+}
+.menu1 ul .haihai{
+    position: absolute;
+    display: none;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+.menu1 li:hover .haihai{
+    background-color: white;
+    padding: 3px;
+    display: block;
+    border: 1px solid white;
+}
+.menu1 li:hover{
+    color: rgb(243, 80, 58);
+}
+.menu1 ul{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.menu1 li{
+    color: black;
+    margin: auto;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.menu1 ul .baba{
+    position: absolute;
+    display: none;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+.menu1 li:hover .baba{
+    background-color: white;
+    padding: 3px;
+    display: block;
+    border: 1px solid white;
+}
+main .image{
+    width: 1300px;
+    height: 520px;
+}
+.bonbon .bonbon1 ul{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bonbon .bonbon1 li{
+    color: black;
+    margin: auto;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    border: 3px solid rgb(19, 18, 18);
+    border-radius: 5px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(20% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 150px;
+    border: 2px solid rgb(8, 8, 8);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 200px;
+}
+.section h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.products{
+    margin: 0 100px 50px 100px;
+    background-color: rgb(248, 57, 57);
+    border-radius: 10px;
+}
+.productss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.productz{
+    width: calc(20% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.productz img{
+    width: 150px;
+    border: 2px solid rgb(8, 8, 8);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 200px;
+}
+.sectionss h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.productss{
+    margin: 0 100px 50px 100px;
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+.bonbon1 li:hover{
+    color: rgb(241, 110, 70);
+}
+main .section .images{
+    width: 1150px;
+    border: 1px solid rgb(255, 253, 253);
+    margin-left: 100px;
+    border-radius: 10px;
+}
+main .sectionss .imagess{
+    width: 1150px;
+    border: 1px solid rgb(255, 253, 253);
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slider-container{
+    height: 60%;
+    width: 60%;
+    position: relative;
+    overflow: hidden; 
+    text-align: center;
+    margin-left:300px;
+    
+  }
+  
+  .menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #080808;
+    border-radius: 50px;
+    margin: 0 .2em 1em;
+    transition: all .3s ease;
+    &:hover {
+      background: red;
+    }
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s .75s;
+  }
+  
+  [id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+  }
+  
+  .slide-1 {
+    background-image: url("https://thuythu.vn/wp-content/uploads/2021/11/mau-website-ban-dien-thoai.png");
+  }
+  .slide-2 {
+    background-image: url("https://www.xtsmart.vn/vnt_upload/news/12_2021/Cover_web_1_-_1_copy.jpg");
+  }
+  .slide-3 {
+    background-image: url("https://www.xtmobile.vn/vnt_upload/news/12_2022/08/ttsale12-12-23.jpg");
+  }
+#H2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer .cuoi{
+    display: flex;
+    background-color: rgb(230, 214, 214);
+}
+footer li{
+    color: black;
+    margin: auto;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+footer ul{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.namnam ul{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.namnam li{
+    color: black;
+    margin: auto;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    border: 3px solid rgb(19, 18, 18);
+    border-radius: 5px;
+}
+.namnam li:hover{
+    color: rgb(243, 99, 42);
+}
+.namnam li{
+    background-color: bisque;
+}
+.bonbon .bonbon1 li{
+    background-color: beige;
+}
+@media screen and(max-width: 768px){
+    header{
+        padding: 10px;
+    }
+    .product{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: calc(100%/2 - 10px);
+        margin-bottom: 30px;
+    }
+    
+}
